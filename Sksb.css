@@ -1,0 +1,92 @@
+
+.bg-img{
+    background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* text-align: center; */
+}
+.navb1{
+    background-color: white !important;
+    border-radius: 20px;
+    margin: 10px;  
+}
+.navbar-dark .navbar-toggler {
+  border-color: black;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  filter: invert(5);
+}
+
+.navb2{
+  background-color: #bc54db;          
+}
+
+.navb1 .nav-link {
+    color: black !important;
+}
+
+.navb1 .nav-link:hover {
+  color: #dc0303 !important;
+}
+
+.carousel1{
+    border-radius: 20px;
+}
+.bg-content{
+    height: 100px !important;
+    border-radius: 5px;
+    background-image: linear-gradient(135deg, #A8E063, #56AB2F) !important;
+}
+.bg-items{
+    background-image: linear-gradient(90deg, #FF9A9E, #FAD0C4) !important;
+    text-align: center;
+    font-style: italic;
+}
+.items{
+    
+}
+.items:hover{
+    transform: scale(1.1);
+}
+.bg-Bestsellers{
+    background-image: linear-gradient(135deg, #FF6B6B, #FFD93D, #6BCB77, #4D96FF) !important;
+}
+
+.newitems{
+    background: radial-gradient(circle at center, #00C9FF 0%, #92FE9D 100%);
+}
+
+.review-card {
+      border: none;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+      transition: transform 0.2s ease;
+}
+.review-card:hover {
+    transform: translateY(-5px);
+}
+.star-rating {
+    color: #f8d64e;
+}
+/* 
+.aboutus-image{
+    background-image: url("https://tinyurl.com/3ms3tw38");
+    height: 510px;
+    background-size: cover;
+}
+
+.aboutus-image:hover{
+    background-image: url("https://tinyurl.com/2c2fnjrj");
+    height:510px;
+    background-size: cover;
+} */
+.headinds{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+

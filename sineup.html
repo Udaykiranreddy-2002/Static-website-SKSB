@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signup Form</title>
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    body {
+    background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+    .signup-container {
+      max-width: 400px;
+      margin: 80px auto;
+      background: #e5d5ff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .form-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .btn-skip {
+      color: #6c757d;
+      text-decoration: none;
+    }
+    .btn-skip:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <h4 class="form-title pt-5"><b>SAI KRISHNA SWEETS & BAKERY ,MADHIRA</b></h4>
+
+  <div class="signup-container">
+    <h4 class="form-title">Create Account</h4>
+
+    <form>
+      <!-- Mobile Number -->
+      <div class="form-group">
+        <label for="mobile">Mobile Number</label>
+        <input type="tel" class="form-control" id="mobile" name="mobile"
+               pattern="[0-9]{10}" maxlength="10" placeholder="Enter 10-digit mobile number" required>
+        <small class="form-text text-muted">Enter 10 digits only</small>
+      </div>
+
+      <!-- Password -->
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password"
+               minlength="6" placeholder="Enter password" required>
+      </div>
+
+      <!-- Buttons -->
+      <div class="form-group text-center">
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        <a href="Sksb.html" class="btn-skip d-block mt-3">Skip</a>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
